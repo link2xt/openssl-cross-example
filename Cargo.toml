@@ -1,0 +1,7 @@
+[package]
+name = "openssl-cross-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+openssl-sys = { version = "0.9.55", features = ["vendored"] }
